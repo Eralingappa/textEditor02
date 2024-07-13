@@ -2,21 +2,21 @@ import styled from 'styled-components'
 
 export const Heading = styled.h1`
   color: '#ffffff';
-  font-family: 'Roboto';
-  text-align: center;
+  font-family:'Roboto';
+  text-align:center;
   font-size: 20px;
 `
 export const Button = styled.button`
-  background-color: trasparent;
+  background-color: transparent;
   color: ${props => props.color};
 `
 
 export const UnderlineButton = styled.button`
-  background-color: trasparent;
+  background-color: transparent;
   color: ${props => props.color};
 `
 export const ItalicButton = styled.button`
-  background-color: trasparent;
+  background-color: transparent;
   color: ${props => props.color};
 `
 export const Image = styled.img`
@@ -31,14 +31,12 @@ export const ImageElement = styled.div`
   min-height: 40vh;
 `
 export const EditorContainer = styled.div`
-
-display:flex;
-flex-direction:column;
-align-items:flex-start;
-background-color:#25262c;
-min-heiht:40vh;
-min-width 23vw;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #25262c;
+  min-heiht: 40vh;
+  min-width: 23vw;
 `
 export const HrElememt = styled.hr`
   color: #cbd5e31;
