@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const Heading = styled.h1`
   color: '#ffffff';
-  font-family:'Roboto';
-  text-align:center;
+  font-family: 'Roboto';
+  text-align: center;
   font-size: 20px;
 `
 export const Button = styled.button`
@@ -49,11 +49,11 @@ export const ButtonContainer = styled.ul`
   margin: 10px;
 `
 export const TextAreaElement = styled.textarea`
-background-color:trasprent;
-margin:20px;
-color:#faff00;
-font-size:13px;
-font-style:${props => props.textDecoration}
-font-wight:bod;
+  background-color: trasprent;
+  margin: 20px;
+  color: #f1f5f9;
+  font-size: 13px;
+  font-style: ${props => props.textDecoration};
+  font-wight: ${props => props.fontWight};
 `
 export default Heading
