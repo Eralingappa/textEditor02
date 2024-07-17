@@ -7,16 +7,16 @@ export const Heading = styled.h1`
   font-size: 20px;
 `
 export const Button = styled.button`
-  background-color: trasprent;
+  background-color: transparent;
   color: ${props => props.color};
 `
 
 export const UnderlineButton = styled.button`
-  background-color: trasprent;
+  background-color: transparent;
   color: ${props => props.color};
 `
 export const ItalicButton = styled.button`
-  background-color: trasprent;
+  background-color: transparent;
   color: ${props => props.color};
 `
 export const Image = styled.img`
@@ -49,7 +49,7 @@ export const ButtonContainer = styled.ul`
   margin: 10px;
 `
 export const TextAreaElement = styled.textarea`
-  background-color: trasprent;
+  background-color: transparent;
   margin: 20px;
   color: #f1f5f9;
   font-size: 13px;

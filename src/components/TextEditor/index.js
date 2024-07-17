@@ -1,6 +1,5 @@
 import {Component} from 'react'
 import {VscBold} from 'react-icons/vsc'
-
 import {
   Heading,
   Button,
@@ -85,7 +84,7 @@ class TextEditor extends Component {
                 <li>
                   <UnderlineButton
                     className="button"
-                    date-testid="underline"
+                    data-testid="underline"
                     type="button"
                     color={UnderlineButtonColor}
                     onClick={this.underline}
