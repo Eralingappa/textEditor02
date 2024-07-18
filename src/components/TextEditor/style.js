@@ -53,7 +53,8 @@ export const TextAreaElement = styled.textarea`
   margin: 20px;
   color: #f1f5f9;
   font-size: 13px;
-  font-style: ${props => props.textDecoration};
-  font-wight: ${props => props.fontWight};
+  font-style: ${props => props.fontStyle};
+  font-weight: ${props => props.fontWeight};
+  font-decoration:${props =>props.textDecoration}
 `
 export default Heading
